@@ -1,7 +1,5 @@
 import pytest
 
-from functions import log
-
 
 def pytest_addoption(parser):
     parser.addoption("--log", action="store", default="log.txt",
